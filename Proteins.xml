@@ -1,0 +1,54 @@
+## Exercise 2 - proteins
+
+* You want to categorize proteins
+* For each protein you want to write down the name, the organism, the number of
+  amino acids and a list of modifications
+* For each modification you want to safe the name, the position in the protein and the modified amino acid
+* Do this for two proteins
+
+<Proteins>
+  <Protein>
+    <Name>PR domain zinc finger protein 1</Name>
+    <Abbreviation>PRDM1</Abbreviation>
+    <Organism>Homo sapiens</Organism>
+    <Amino_acids>825</Amino_acids>
+    <Modifications>
+      <Modification>
+        <Name>Sumolyation</Name>
+        <Position>816</Position>
+        <Amino_acid>Lys</Amino_acid>
+      </Modification>
+    </Modifications>
+  </Protein>
+  <Protein>
+    <Name>Angiotensin-converting enzyme 2</Name>
+    <Abbreviation>ACE2</Abbreviation>
+    <Organism>Homo sapiens</Organism>
+    <Amino_acids>805</Amino_acids>
+    <Modifications>
+      <Modification>
+        <Name>N-glycosylation</Name>
+        <Position>90</Position>
+        <Amino_acid>Asn</Amino_acid>
+      </Modification>
+      <Modification>
+        <Name>Phosphorylation</Name>
+        <Position>784</Position>
+        <Amino_acid>Tyr</Amino_acid>
+      </Modification>
+    </Modifications>
+  </Protein>
+  <Protein>
+    <Name>Interferon regulatory factor 1</Name>
+    <Abbreviation>IRF1</Abbreviation>
+    <Organism>Homo sapiens</Organism>
+    <Amino_acids>325</Amino_acids>
+    <Modifications>
+      <Modification>
+        <Name>Acetylation</Name>
+        <Position>78</Position>
+        <Amino_acid>Lys</Amino_acid>
+      </Modification>
+    </Modifications>
+  </Protein>
+</Proteins
