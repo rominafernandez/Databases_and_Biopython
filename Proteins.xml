@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--Exercise 2 - proteins
 
 * You want to categorize proteins
@@ -5,8 +6,6 @@
   amino acids and a list of modifications
 * For each modification you want to safe the name, the position in the protein and the modified amino acid
 * Do this for two proteins-->
-
-<?xml version="1.0" encoding="UTF-8"?>
 <Proteins>
     <Protein>
         <Name>PR domain zinc finger protein 1</Name>
@@ -37,6 +36,11 @@
                 <Position>784</Position>
                 <Amino_acid>Tyr</Amino_acid>
             </Modification>
+            <Modification>
+                <Name>Phosphorylation</Name>
+                <Position>25</Position>
+                <Amino_acid>Asn</Amino_acid>
+            </Modification>
         </Modifications>
     </Protein>
     <Protein>
@@ -52,4 +56,4 @@
             </Modification>
         </Modifications>
     </Protein>
-</Proteins
+</Proteins>
