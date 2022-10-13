@@ -1,0 +1,123 @@
+<!--Exercise 3 - Test Catalog
+
+* A laboratory wants to safe his experiments
+* The list should contain the title of the experiment, the duration, the price,
+  the person doing the test, a tool list with short descriptions of the tools and the used number
+* The saved file should also include the day on which it was saved
+* Create the general structure of this XML file with the corresponding tags and attributes
+* Write down the details for at least two experiments-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ExperimentList>
+    <SafeDate>
+        <day>13</day>
+        <month>10</month>
+        <year>2022</year>
+    </SafeDate>
+    <Experiment>
+        <Title>PCR</Title>
+        <Duration unit="min">120</Duration>
+        <Cost unit="Euro">113</Cost>
+        <Persons>
+            <Person>
+                <FirstName>Max</FirstName>
+                <LastName>Mustermann</LastName>
+            </Person>
+        </Persons>
+        <Tools>
+            <Tool>
+                <Name>Taq DNA Polymerase</Name>
+                <Description>Polymerase</Description>
+                <Number>1</Number>
+            </Tool>
+            <Tool>
+                <Name>Water</Name>
+                <Description>Water in PCR-Quality</Description>
+                <Number>1</Number>
+            </Tool>
+            <Tool>
+                <Name>Primer</Name>
+                <Description>Specific primer for target sequence</Description>
+                <Number>2</Number>
+            </Tool>
+            <Tool>
+                <Name>DNA</Name>
+                <Description>Target DNA to amplify</Description>
+                <Number>1</Number>
+            </Tool>
+            <Tool>
+                <Name>Pipette</Name>
+                <Description>Pipettes for different sizes</Description>
+                <Number>3</Number>
+            </Tool>
+            <Tool>
+                <Name>Pipette tips</Name>
+                <Description>Pipette tips for different sizes</Description>
+                <Number>20</Number>
+            </Tool>
+            <Tool>
+                <Name>Thermocycler</Name>
+                <Description>to automatically perform PCR</Description>
+                <Number>1</Number>
+            </Tool>
+            <Tool>
+                <Name>Tubes</Name>
+                <Description>Sterile microtubes</Description>
+                <Number>20</Number>
+            </Tool>
+            <Tool>
+                <Name>dNTP</Name>
+                <Description>Mixture of dATP, dCTP, dGTP and dTTP</Description>
+                <Number>1</Number>
+            </Tool>
+        </Tools>
+    </Experiment>
+    <Experiment>
+        <Title>Density Gradient Centrifugation</Title>
+        <Duration unit="min">60</Duration>
+        <Cost unit="Euro">78</Cost>
+        <Persons>
+            <Person>
+                <FirstName>Romina</FirstName>
+                <LastName>Fernandez</LastName>
+            </Person>
+        </Persons>
+        <Tools>
+            <Tool>
+                <Name>Whole blood sample</Name>
+                <Description>Sample drained in anti-coagulant tube</Description>
+                <Number>1</Number>
+            </Tool>
+            <Tool>
+                <Name>Density gradient medium</Name>
+                <Description>Lymphoprep</Description>
+                <Number>1</Number>
+            </Tool>
+            <Tool>
+                <Name>PBS</Name>
+                <Description>Dulbecco's Phosphate Buffered Saline with 2% Fetal Bovine Serum</Description>
+                <Number>1</Number>
+            </Tool>
+            <Tool>
+                <Name>Tube</Name>
+                <Description>Tube for centrifugation</Description>
+                <Number>5</Number>
+            </Tool>
+            <Tool>
+                <Name>Centrifuge</Name>
+                <Description>Cooled down</Description>
+                <Number>1</Number>
+            </Tool>
+            <Tool>
+                <Name>Pipette</Name>
+                <Description>Pipettes for different sizes</Description>
+                <Number>3</Number>
+            </Tool>
+            <Tool>
+                <Name>Pipette tips</Name>
+                <Description>Pipette tips for different sizes</Description>
+                <Number>20</Number>
+            </Tool>
+        </Tools>
+    </Experiment>
+</ExperimentList>

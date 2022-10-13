@@ -1,0 +1,43 @@
+<!--Exercise 4 - protein structures
+
+* Create an XML structure for saving information about the structure of different proteins
+* It should include the isoelectric point, the molecular weight,
+  the name and its synonyms as well as the sequence
+* Furthermore it should tell on which positions in the structure
+  secondary structure elements (α-Helix and β-Strand) can be found
+* Include at least one structure in your XML file.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Proteins>
+    <Protein>
+        <FullName>PR domain zinc finger protein 1</FullName>
+        <Name>PRDM1</Name>
+        <Synonym>BLIMP1</Synonym>
+        <IsoelectricPoint unit="pH">8.5</IsoelectricPoint>
+        <MolecularWeight unit="Dalton">91.771</MolecularWeight>
+        <Sequence>MLDICLEKRVGTTLAAPKCNSSTVRFQGLAEGTKGTMKMDMEDADMTLWTEAEFEEKCTYIVNDHPWDSGADGGTSVQAEASLPRNLLFKYATNSEEVIGVMSKEYIPKGTRFGPLIGEIYTNDTVPKNANRKYFWRIYSRGELHHFIDGFNEEKSNWMRYVNPAHSPREQNLAACQNGMNIYFYTIKPIPANQELLVWYCRDFAERLHYPYPGELTMMNLTQTQSSLKQPSTEKNELCPKNVPKREYSVKEILKLDSNPSKGKDLYRSNISPLTSEKDLDDFRRRGSPEMPFYPRVVYPIRAPLPEDFLKASLAYGIERPTYITRSPIPSSTTPSPSARSSPDQSLKSSSPHSSPGNTVSPVGPGSQEHRDSYAYLNASYGTEGLGSYPGYAPLPHLPPAFIPSYNAHYPKFLLPPYGMNCNGLSAVSSMNGINNFGLFPRLCPVYSNLLGGGSLPHPMLNPTSLPSSLPSDGARRLLQPEHPREVLVPAPHSAFSFTGAAASMKDKACSPTSGSPTAGTAATAEHVVQPKATSAAMAAPSSDEAMNLIKNKRNMTGYKTLPYPLKKQNGKIKYECNVCAKTFGQLSNLKVHLRVHSGERPFKCQTCNKGFTQLAHLQKHYLVHTGEKPHECQVCHKRFSSTSNLKTHLRLHSGEKPYQCKVCPAKFTQFVHLKLHKRLHTRERPHKCSQCHKNYIHLCSLKVHLKGNCAAAPAPGLPLEDLTRINEEIEKFDISDNADRLEDVEDDISVISVVEKEILAVVRKEKEETGLKVSLQRNMGNGLLSSGCSLYESSDLPLMKLPPSNPLPLVPVKVKQETVEPMDP</Sequence>
+        <SecondaryStructure>
+            <AlphaHelix>
+                <Start>51</Start>
+                <End>57</End>
+            </AlphaHelix>
+            <BetaStrand>
+                <Start>60</Start>
+                <End>62</End>
+            </BetaStrand>
+            <BetaStrand>
+                <Start>197</Start>
+                <End>200</End>
+            </BetaStrand>
+            <AlphaHelix>
+                <Start>78</Start>
+                <End>81</End>
+            </AlphaHelix>
+            <Turn>
+                <Start>168</Start>
+                <End>170</End>
+            </Turn>
+        </SecondaryStructure>
+    </Protein>
+</Proteins
