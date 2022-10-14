@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!--Exercise 4 - protein structures
 
 * Create an XML structure for saving information about the structure of different proteins
@@ -6,9 +7,6 @@
 * Furthermore it should tell on which positions in the structure
   secondary structure elements (α-Helix and β-Strand) can be found
 * Include at least one structure in your XML file.-->
-
-<?xml version="1.0" encoding="UTF-8"?>
-
 <Proteins>
     <Protein>
         <FullName>PR domain zinc finger protein 1</FullName>
@@ -40,4 +38,18 @@
             </Turn>
         </SecondaryStructure>
     </Protein>
-</Proteins
+    <Protein>
+        <FullName>Interferon regulatory factor 1</FullName>
+        <Name>IRF1</Name>
+        <Synonym/>
+        <IsoelectricPoint unit="pH">4.94</IsoelectricPoint>
+        <MolecularWeight unit="Dalton">36.502</MolecularWeight>
+        <Sequence>MPITRMRMRPWLEMQINSNQIPGLIWINKEEMIFQIPWKHAAKHGWDINKDACLFRSWAIHTGRYKAGEKEPDPKTWKANFRCAMNSLPDIEEVKDQSRNKGSSAVRVYRMLPPLTKNQRKERKSKSSRDAKSKAKRKSCGDSSPDTFSDGLSSSTLPDDHSSYTVPGYMQDLEVEQALTPALSPCAVSSTLPDWHIPVEVVPDSTSDLYNFQVSPMPSTSEATTDEDEEGKLPEDIMKLLEQSEWQPTNVDGKGYLLNEPGVQPTSVYGDFSCKEEPEIDSPGGDIGLSLQRVFTDLKNMDATWLDSLLTPVRLPSIQAIPCAP</Sequence>
+        <SecondaryStructure>
+            <AlphaHelix>
+                <Start>1</Start>
+                <End>325</End>
+            </AlphaHelix>>
+        </SecondaryStructure>
+    </Protein>
+</Proteins>
