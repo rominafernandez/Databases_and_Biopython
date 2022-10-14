@@ -7,11 +7,11 @@ All exercises done in the databases and biopython part of module 2.
 * Exercise 3 - Test catalog: [`Catalog.xml`](https://github.com/rominafernandez/Databases_and_Biopython/blob/master/Catalog.xml)
 * Exercise 4 - Protein structures: [`ProteinStructure.xml`](https://github.com/rominafernandez/Databases_and_Biopython/blob/master/ProteinStructure.xml)
 * Exercise 15 - Using xmltodict: [`UsingXmltodict.py`](https://github.com/rominafernandez/Databases_and_Biopython/blob/master/UsingXmltodict.py)
-* Exercise 16 - Generate a Tree: [`Tree.py`](https://github.com/rominafernandez/Databases_and_Biopython/blob/master/Tree.py)
+* Exercise 16 - Generate a Tree: [`UsingTrees.py`](https://github.com/rominafernandez/Databases_and_Biopython/blob/master/UsingTrees.py)
 
 **Biopython**
-* Exercise 8 - using ez.info:
-* Exercise 9 - Searching NCBI databases:
+* Exercise 8 - using ez.info: [`UsingEinfo.py`](https://github.com/rominafernandez/Databases_and_Biopython/blob/master/UsingEinfo.py)
+* Exercise 9 - Searching NCBI databases: [`UsingEsearch.py`](https://github.com/rominafernandez/Databases_and_Biopython/blob/master/UsingEsearch.py)
 * Exercise 10 - Creating Summaries:
 * Exercise 11 - Fetching Data:
 * Exercise 17 - Different Parser:
